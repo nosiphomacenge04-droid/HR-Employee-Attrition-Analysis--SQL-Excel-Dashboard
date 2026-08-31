@@ -1,21 +1,24 @@
-# HR-Employee-Attrition-Analysis- SQL-Excel-Dashboard
+# Employee Attrition Analysis — SQL & Excel Dashboard
+
 ## Project Overview
 
-This project focuses on analysing employee attrition using SQL and Excel. The HR dataset was sourced from Kaggle and used to explore employee demographics, departments, job roles, compensation, performance, satisfaction, and other factors related to employee attrition. SQL was used for data preparation, validation, exploration, and analysis. The results from selected SQL queries were then transferred to Excel for further exploration and the development of an interactive dashboard. The project demonstrates the application of SQL and Excel to investigate workforce patterns and present HR-related findings in a clear and business-oriented format.
+This project analyses employee attrition and workforce patterns using SQL and Microsoft Excel. The dataset was sourced from Kaggle and was explored to understand employee demographics, compensation, job roles, departments, performance, satisfaction, retention, and factors associated with employee attrition. SQL was used to explore and analyse the HR dataset through a series of business-focused queries. Selected SQL results were then transferred to Excel for further exploration, analysis, and dashboard development. The project demonstrates an end-to-end data analysis workflow, from data exploration and SQL querying to Excel-based visualisation and dashboard reporting.
 
 ## Objectives
+
 The main objectives of this project were to:
 - Explore the structure and quality of the HR dataset.
 - Analyse employee demographics and workforce characteristics.
 - Investigate employee attrition and turnover patterns.
-- Examine attrition across departments, job roles, and gender.
-- Analyse salary, overtime, satisfaction, and other factors in relation to attrition.
-- Explore employee performance and work-life balance.
-- Investigate factors associated with employee retention and attrition.
+- Compare attrition across departments, job roles, and gender.
+- Analyse salary and income across departments and job roles.
+- Investigate the relationship between overtime and employee attrition.
+- Explore employee satisfaction, performance, and work-life balance.
+- Examine factors related to employee retention and attrition.
 - Present key findings through an Excel dashboard.
-  
+
 ## SQL Analysis
-The SQL analysis covered several areas of HR and employee attrition.
+The SQL analysis covered the following areas:
 
 ### Data Quality and Preparation
 - Checked column names and data types.
@@ -25,24 +28,27 @@ The SQL analysis covered several areas of HR and employee attrition.
 - Checked for duplicate records.
 - Checked for potential outliers.
 - Converted fields to appropriate data types.
+- Selected and reviewed sample records.
 
 ### Employee and Workforce Analysis
 - Counted employees by department.
 - Analysed the number of male and female employees.
 - Calculated average employee age.
 - Calculated average salary.
-- Analysed average salary by department.
+- Calculated average salary by department.
 - Identified the department with the highest salary.
 - Identified employees with the longest tenure.
 - Identified the highest-paid employees.
 - Ranked employees by salary.
 
 ### Attrition Analysis
-- Analysed employee turnover and attrition.
-- Calculated attrition rates by department.
+
+- Analysed employees who left the organisation.
+- Calculated employee turnover and attrition counts.
+- Calculated attrition rate by department.
 - Analysed attrition by gender.
 - Analysed attrition by job role and department.
-- Compared employees who left the organisation with those who remained.
+- Compared employees who left with employees who stayed.
 - Investigated factors associated with employee attrition.
 
 ### Compensation and Job Analysis
@@ -59,58 +65,90 @@ The SQL analysis covered several areas of HR and employee attrition.
 - Analysed overtime and business travel in relation to attrition.
 - Investigated the impact of distance from home on attrition.
 - Analysed training activity from the previous year.
+- Analysed employee performance ratings.
 - Identified top-performing departments.
-  
+
 ## Excel Dashboard
-The results from selected SQL queries were transferred to Excel for further exploration and visualisation.
-An interactive dashboard was developed to present key employee attrition and workforce insights, including:
-- Employee attrition
-- Department analysis
-- Employee demographics
-- Salary and compensation
-- Job roles
-- Overtime
-- Employee satisfaction
-- Work-life balance
-- Employee performance
-- Retention and attrition patterns
+The results from selected SQL queries were transferred to Excel for further exploration and visualisation. An Employee Attrition Analytics Dashboard was developed to provide an overview of workforce risk and employee retention patterns.
+
+### Dashboard Sections
+The dashboard includes the following analyses:
+- Employee Distribution by Department
+- Attrition Rate by Job Role & Department
+- Salary Distribution of Employees
+- Salary & Attrition Rate by Salary Band
+- Average Age, Income & Tenure: Employees Who Left vs Stayed
+- Attrition Rate by Department
+- Performance Rating vs Attrition by Department
+- Business Travel, Overtime & Attrition
+- Tenure vs Income: Top 10 Employees
+- Top 10 Highest-Paid Employees
+- Employee Retention & HR Factors
 
 ### Dashboard Preview
-![HR Employee Attrition Dashboard](./Screenshots/HR_Attrition_Dashboard.png)
+![Employee Attrition Analytics Dashboard](./Screenshots/HR_Attrition_Dashboard.png)
+
+## Key Areas Explored
+The project explored several factors that may be associated with employee attrition and retention, including:
+- Department
+- Job role
+- Gender
+- Age
+- Monthly income
+- Job level
+- Years at company
+- Years since promotion
+- Overtime
+- Business travel
+- Job satisfaction
+- Work-life balance
+- Performance rating
+- Distance from home
+- Percent salary hike
+- Stock options
+- Training
 
 ## Project Workflow
-The project followed an end-to-end data analysis workflow:
-1. Obtained the HR dataset from Kaggle.
+The project followed the following analytical workflow:
+1. Obtained the HR employee attrition dataset from Kaggle.
 2. Examined the dataset structure and data types.
 3. Performed data quality checks.
-4. Prepared the data for analysis.
-5. Used SQL to explore the dataset and answer HR-related business questions.
-6. Extracted results from selected SQL queries.
-7. Transferred the results to Excel.
-8. Explored the results further in Excel.
-9. Developed an interactive dashboard to communicate key findings.
+4. Checked for missing values, duplicates, and potential outliers.
+5. Used SQL to explore the dataset.
+6. Developed SQL queries to answer HR and business-related questions.
+7. Extracted selected SQL query results.
+8. Transferred the results to Excel.
+9. Explored the results further using Excel.
+10. Developed an Employee Attrition Analytics Dashboard.
+11. Used visualisations to identify workforce and attrition patterns.
 
-## SQL Skills Demonstrated
-The project provided practical experience with:
-- `SELECT`
-- `WHERE`
-- `GROUP BY`
-- `ORDER BY`
-- `HAVING`
-- Aggregate functions
-- `COUNT()`
-- `SUM()`
-- `AVG()`
-- `MIN()`
-- `MAX()`
-- Filtering and conditional logic
-- Data quality checks
-- Data type handling
+## Skills Demonstrated
+### SQL
+
+- Data exploration
+- Data quality checking
+- Filtering
+- Aggregation
+- Grouping
+- Sorting
 - Ranking
-- Analytical queries
-- Business-focused data analysis
-- 
+- Conditional analysis
+- Attrition analysis
+- Salary analysis
+- Workforce analysis
+- Business-focused querying
+  
+### Excel
+- Data exploration
+- Data analysis
+- Dashboard development
+- KPI creation
+- Data visualisation
+- Charts
+- Comparative analysis
+- Workforce reporting
+
 ## Tools Used
-- **SQL** — data preparation, querying, filtering, aggregation, ranking, and analysis
-- **Microsoft Excel** — data exploration, analysis, visualisation, and dashboard development
+- **SQL** — data exploration and analysis
+- **Microsoft Excel** — data analysis, visualisation, and dashboard development
 - **Kaggle** — dataset source
