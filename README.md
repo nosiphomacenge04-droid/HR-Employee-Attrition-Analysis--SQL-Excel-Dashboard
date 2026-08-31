@@ -86,7 +86,7 @@ The dashboard includes the following analyses:
 - Employee Retention & HR Factors
 
 ### Dashboard Preview
-![Employee Attrition Analytics Dashboard](./Screenshots/HR_Attrition_Dashboard.png)
+![Employee Attrition Analytics Dashboard](HR_Attrition_Dashboard.png)
 
 ## Key Areas Explored
 The project explored several factors that may be associated with employee attrition and retention, including:
